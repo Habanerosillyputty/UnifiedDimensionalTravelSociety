@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+  <title id="title">Unified Dimensional Travel Society Wormhole</title>
+  <desc id="desc">A stylized wormhole portal in purple and blue gradients.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c28bff"/>
+      <stop offset="65%" stop-color="#5e4efe"/>
+      <stop offset="100%" stop-color="#1c134a"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8ff8ff"/>
+      <stop offset="100%" stop-color="#2d6bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="#09071d"/>
+  <ellipse cx="300" cy="155" rx="205" ry="95" fill="url(#glow)" opacity="0.6"/>
+  <path d="M300 60 C 360 80, 420 120, 430 170 C 420 220, 360 260, 300 250 C 240 260, 180 220, 170 170 C 180 120, 240 80, 300 60 Z" fill="none" stroke="url(#beam)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M300 90 C 335 105, 370 130, 375 170 C 370 210, 335 235, 300 220 C 265 235, 230 210, 225 170 C 230 130, 265 105, 300 90 Z" fill="none" stroke="#b2e7ff" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="300" cy="170" r="32" fill="#eff8ff" opacity="0.95"/>
+  <text x="300" y="30" text-anchor="middle" fill="#d7d4ff" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Unified Dimensional Travel Society</text>
+  <text x="300" y="285" text-anchor="middle" fill="#a3a0c8" font-family="Inter, Arial, sans-serif" font-size="16">The New World is through a Wormhole</text>
+</svg>
